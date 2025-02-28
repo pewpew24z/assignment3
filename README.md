@@ -23,23 +23,34 @@ Each line in the file should contain a single infix expression.
 # Example Input (input1.txt)
 
 (5 + 3) * (2 - (8 / 4))
+
 ((7 + 6) * (5 - 2)) / (4 + 1)
+
 15 - ((3 * 8) / (2 + 2))
 
 # Expected Output
 
 Expression 1:
+
 Infix exp: (5 + 3) * (2 - (8 / 4))
+
 Valid
+
 Postfix exp: 5 3 + 2 8 4 / - *
 
 Expression 2:
+
 Infix exp: ((7 + 6) * (5 - 2)) / (4 + 1)
+
 Valid
+
 Postfix exp: 7 6 + 5 2 - * 4 1 + /
 
 Expression 3:
+
 Infix exp: 15 - ((3 * 8) / (2 + 2))
+
 Valid
+
 Postfix exp: 15 3 8 * 2 2 + / -
 
