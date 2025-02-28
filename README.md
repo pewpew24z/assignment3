@@ -1,6 +1,6 @@
 Nina Burger 672115028
 
-#Compilation and Execution Instructions
+Compilation and Execution Instructions
 
 1. Compilation
 
