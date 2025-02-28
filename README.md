@@ -26,7 +26,7 @@ Each line in the file should contain a single infix expression.
 ((7 + 6) * (5 - 2)) / (4 + 1)
 15 - ((3 * 8) / (2 + 2))
 
-#### Expected Output
+# Expected Output
 
 Expression 1:
 Infix exp: (5 + 3) * (2 - (8 / 4))
